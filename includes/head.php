@@ -22,8 +22,8 @@
     <link rel="stylesheet" href="public/css/fontawesome-all.css">
     <link rel="stylesheet" href="public/css/bootstrap-table.min.css">
     <link rel="stylesheet" href="public/css/style.css?v=9">
-    <title>Coronavirus infections (COVID-19)</title>
-    <meta name="description" content="Health information on coronavirus infections with detailed statistics from around the world. Data can be exported in 7 different formats.">
+    <title>Italy Coronavirus infections (COVID-19)</title>
+    <meta name="description" content="Informazioni sanitarie sulle infezioni da coronavirus con statistiche dettagliate dall'Italia. I dati possono essere esportati in 7 diversi formati.">
     <link rel="apple-touch-icon" sizes="57x57" href="public/icons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="public/icons/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="public/icons/apple-icon-72x72.png">
