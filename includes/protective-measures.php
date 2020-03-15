@@ -12,57 +12,36 @@
 
  ?>
         
-        <p class="mb-3 text-light font-weight-bold">Taken from the World Health Organization website for the public</p>
+        <p class="mb-3 text-light font-weight-bold">Tratto dal sito Web salute.gov.it per il pubblico</p>
         
-        <h2 class="text-warning mb-4" id="measures">Be Ready for coronavirus</h2>
+        <h2 class="text-warning mb-4" id="measures">Prevenzione e trattamento coronavirus</h2>
         <div class="row text-center text-lg-left">
             
             <div class="col-lg-6 col-md-12 col-12 mb-4">
-                <img class="img-fluid img-thumbnail" src="public/img/flyers/be-ready-social-3.jpg" alt="Be ready for #coronavirus">
+                <img class="img-fluid img-thumbnail" src="public/img/flyers/iorestoacasa.jpg" alt="Lascia il virus fuori dalla porta">
             </div>
             <div class="col-lg-6 col-md-12 col-12 mb-4">
-                <img class="img-fluid img-thumbnail" src="public/img/flyers/be-ready-social-2.jpg" alt="Be ready to fight #COVID19">
+                <img class="img-fluid img-thumbnail" src="public/img/flyers/raccomandazioni-da-seguire.jpg" alt="Raccomandazioni da seguire">
             </div>
             <div class="col-lg-6 col-md-12 col-12 mb-4">
-                <img class="img-fluid img-thumbnail" src="public/img/flyers/be-ready-social-1.jpg" alt="Be ready to fight #COVID19">
+                <img class="img-fluid img-thumbnail" src="public/img/flyers/lavare-mani.jpg" alt="Come lavare le tue mani?">
             </div> 
             <div class="col-lg-6 col-md-12 col-12 mb-4">
-                <img class="img-fluid img-thumbnail" src="public/img/flyers/be-smart-if-you-develop.jpg" alt="Be smart if you develop #COVID19">
+                <img class="img-fluid img-thumbnail" src="public/img/flyers/raccomandazioni-da-seguire-2.jpg" alt="Raccomandazioni da seguire">
             </div> 
             <div class="col-lg-6 col-md-12 col-12 mb-4">
-                <img class="img-fluid img-thumbnail" src="public/img/flyers/be-smart-inform.jpg" alt="Be smart inform #COVID19">
+                <img class="img-fluid img-thumbnail" src="public/img/flyers/raccomandazioni-prevenzione.jpg" alt="Raccomandazioni per la prevenzione">
             </div> 
             <div class="col-lg-6 col-md-12 col-12 mb-4">
-                <img class="img-fluid img-thumbnail" src="public/img/flyers/be-safe.jpg" alt="Be safe #COVID19">
+                <img class="img-fluid img-thumbnail" src="public/img/flyers/il-nuovo-coronavirus.jpg" alt="Il nuovo coronavirus colpisce solo le persone più anziane o anche i più giovani?">
             </div> 
             <div class="col-lg-6 col-md-12 col-12 mb-4">
-                <img class="img-fluid img-thumbnail" src="public/img/flyers/be-kind-to-support.jpg" alt="Be kind to support #COVID19">
+                <img class="img-fluid img-thumbnail" src="public/img/flyers/cosa-coronavirus.jpg" alt="Che cos'è il coronavirus?">
             </div> 
             <div class="col-lg-6 col-md-12 col-12 mb-4">
-                <img class="img-fluid img-thumbnail" src="public/img/flyers/be-kind-to-address-stigma.jpg" alt="Be kind to address stigma #COVID19">
-            </div> 
-            <div class="col-lg-6 col-md-12 col-12 mb-4">
-                <img class="img-fluid img-thumbnail" src="public/img/flyers/be-kind-to-address-fear.jpg" alt="Be kind toa ddress fear #COVID19">
-            </div> 
+                <img class="img-fluid img-thumbnail" src="public/img/flyers/sintomi-coronavirus.jpg" alt="Quali sono i sintomi del nuovo coronavirus?">
+            </div>
 
         </div>
 
         <hr style="background:#343a40">
-
-        <h2 class="text-warning mb-4">Protect yourself and others from getting sick</h2>
-        <div class="row text-center text-lg-left">
-            
-            <div class="col-lg-6 col-md-12 col-12 mb-4">
-                <img class="img-fluid img-thumbnail" src="public/img/flyers/blue-1.jpg" alt="Wash your hands #COVID19">
-            </div>
-            <div class="col-lg-6 col-md-12 col-12 mb-4">
-                <img class="img-fluid img-thumbnail" src="public/img/flyers/blue-2.jpg" alt="Protect yourself and others from getting sick #COVID19">
-            </div>
-            <div class="col-lg-6 col-md-12 col-12 mb-4">
-                <img class="img-fluid img-thumbnail" src="public/img/flyers/blue-3.jpg" alt="Protect others from getting sick #COVID19">
-            </div>
-            <div class="col-lg-6 col-md-12 col-12 mb-4">
-                <img class="img-fluid img-thumbnail" src="public/img/flyers/blue-4.jpg" alt="Protect others from getting sick #COVID19">
-            </div>
-
-        </div>

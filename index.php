@@ -51,7 +51,7 @@ include('includes/head.php');
         <hr style="background:#343a40">
 
         <p class="float-right">
-            <a href="#">Back to top</a>
+            <a href="#">Torna all'inizio</a>
         </p>
 
     </div>
