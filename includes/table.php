@@ -39,6 +39,7 @@
         <thead class="thead-light">
           <tr>
             <th data-field="region" data-filter-control="select">Regione</th>
+            <th>Data</th>
             <th data-sortable="true">Ricoverati</th>
             <th data-sortable="true" data-visible="false">Terapia intensiva</th>
             <th data-sortable="true">Tot. ospedalizzati</th>
@@ -72,6 +73,7 @@
           foreach ($csvFile as $row) {
             echo '<tr>';
             echo '<th>'.$row[3].'</th>';
+            echo '<th><small>'.date("d-m-Y H:i:s", strtotime($row[0])).'</small></th>';
             echo '<th>'.$row[6].'</th>';
             echo '<th>'.$row[7].'</th>';
             echo '<th>'.$row[8].'</th>';
