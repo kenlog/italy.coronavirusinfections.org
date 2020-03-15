@@ -41,13 +41,13 @@
     <meta name="msapplication-TileImage" content="public/icons/ms-icon-144x144.png">
     <meta name="theme-color" content="#0c2433">
 
-    <meta property="og:title" content="Coronavirus infections (COVID-19)">
-    <meta property="og:description" content="Health information on coronavirus infections with detailed statistics from around the world. Data can be exported in 7 different formats.">
+    <meta property="og:title" content="Italy Coronavirus infections (COVID-19)">
+    <meta property="og:description" content="Informazioni sanitarie sulle infezioni da coronavirus con statistiche dettagliate dall'Italia. I dati possono essere esportati in 7 diversi formati.">
     <meta property="og:image" content="https://coronavirusinfections.org/public/img/coronavirusinfections.jpg">
     <meta property="og:url" content="https://coronavirusinfections.org">
 
-    <meta property="twitter:title" content="Coronavirus infections (COVID-19)">
-    <meta property="twitter:description" content="Health information on coronavirus infections with detailed statistics from around the world. Data can be exported in 7 different formats.">
+    <meta property="twitter:title" content="Italy Coronavirus infections (COVID-19)">
+    <meta property="twitter:description" content="Informazioni sanitarie sulle infezioni da coronavirus con statistiche dettagliate dall'Italia. I dati possono essere esportati in 7 diversi formati.">
     <meta property="twitter:image" content="https://coronavirusinfections.org/public/img/coronavirusinfections.jpg">
     <meta property="twitter:url" content="https://coronavirusinfections.org">
 
