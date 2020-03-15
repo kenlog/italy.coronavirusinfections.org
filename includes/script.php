@@ -44,7 +44,7 @@
                     exportDataType: $(this).val(),
                     exportOptions: {
                         fileName: function () {
-                            return 'Situation reports (COVID-19) <?= $date; ?>'
+                            return 'Rapporti sulla situazione (COVID-19) <?= $date; ?>'
                         },
                         preventInjection: false
                     },
@@ -58,9 +58,9 @@
         var globallyChart = new Chart(ctx, {
             type: 'bar',
             data: {
-                labels: ['Confirmed', 'Recovered', 'Deaths'],
+                labels: ['Confermati', 'Ricoverati', 'Deceduti'],
                 datasets: [{
-                    label: 'Situation reports (COVID-19) <?= $date; ?>',
+                    label: 'Rapporti sulla situazione (COVID-19) <?= $date; ?>',
                     data: [<?= $sumConfirmed; ?>, <?= $sumRecovered; ?>, <?= $sumDeaths; ?>],
                     backgroundColor: [
                         'rgba(54, 162, 235, 0.2)',

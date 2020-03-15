@@ -14,7 +14,7 @@
         
 <div class="jumbotron jumbotron-fluid mt-5 p-3 bg-info text-light">
     <div class="container">
-        <h3 class="text-light font-weight-bold">Rapporti di situazione sulla malattia da coronavirus (COVID-19)</h3>
+        <h3 class="text-light font-weight-bold">Rapporti della situazione sulla malattia da coronavirus (COVID-19)</h3>
         <p class="text-muted">- <i class="far fa-newspaper fa-lg"></i> Comunicati stampa dal sito Web dell'OMS -</p>
     </div>
 </div>

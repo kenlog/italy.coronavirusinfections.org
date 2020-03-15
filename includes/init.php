@@ -12,7 +12,7 @@
 
 $host = "https://italy.coronavirusinfections.org";
 
-$updateDate = '14 Marzo 2020';
+$updateDate = '15 Marzo 2020';
 
 $nextUpdate = '7 PM CET 16 Marzo 2020'; 
 

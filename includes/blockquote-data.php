@@ -14,8 +14,8 @@
         
         <blockquote class="blockquote mt-5 mb-4">
             <p class="mb-0"></p>
-            <footer class="blockquote-footer">Data are taken from <strong><a href="https://data.humdata.org/dataset/novel-coronavirus-2019-ncov-cases" target="_blank">HUMANITARIAN DATA EXCHANGE</a> dataset provided by JHU CSSE</strong></footer>
+            <footer class="blockquote-footer">Editore/Autore del dataset: Dipartimento della Protezione Civile <strong>Elaborazione e gestione dati a cura del Dipartimento della Protezione Civile</strong></footer>
             <div>
-                <small class="text-muted">This website disclaims any representation and warranty regarding the data shown, including accuracy, suitability for use and marketability. <br> This is not an institutional site!</small>
+                <small class="text-muted">Questo sito Web declina qualsiasi dichiarazione e garanzia in merito ai dati mostrati, inclusi accuratezza, idoneità all'uso e commerciabilità. <br> Questo non è un sito istituzionale!</small>
             </div>
         </blockquote>
