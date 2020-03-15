@@ -2,7 +2,7 @@
 ![Website](https://img.shields.io/website?down_message=offline&style=for-the-badge&up_message=online&url=https%3A%2F%2Fcoronavirusinfections.org%2F)
 
 [italy.coronavirusinfections.org](https://italy.coronavirusinfections.org/)
-# Coronavirus infections (COVID-19) Cases
+# Coronavirus infections (COVID-19) Italy
 
 ## Fonte dei dati
 Editore/Autore del dataset: Dipartimento della Protezione Civile   
