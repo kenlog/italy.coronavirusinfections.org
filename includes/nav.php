@@ -25,6 +25,7 @@
             <div class="navbar-nav">
                 <a class="nav-item nav-link" href="#measures">Misure di protezione di base</a>
                 <a class="nav-item nav-link" href="https://secure.avaaz.org/campaign/it/covid19_global_response_loc/?copy" target="_blank">Aiuta a rallentare il coronavirus (avaaz.org)</a>
+                <a class="nav-item nav-link" href="https://coronavirusinfections.org/">Infezione nel mondo</a>
             </div>
             <ul class="share-buttons navbar-nav flex-row ml-md-auto d-md-flex">
                 <li style="display: inline;margin: 3px;"><a href="https://twitter.com/intent/tweet?source=URL&amp;text=https://italy.coronavirusinfections.org/" target="_blank" title="Condividi su Twitter"><img src="public/icons/Twitter.png" width="80%"></a></li>
