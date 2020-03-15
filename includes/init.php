@@ -14,6 +14,6 @@ $host = "https://italy.coronavirusinfections.org";
 
 $updateDate = '14 Marzo 2020';
 
-$nextUpdate = '10 AM CET 16 Marzo 2020'; 
+$nextUpdate = '7 PM CET 16 Marzo 2020'; 
 
 $contagionDays = count(glob('data/csv/reports/*'));
