@@ -8,7 +8,7 @@
 Editore/Autore del dataset: Dipartimento della Protezione Civile   
 Elaborazione e gestione dati a cura del Dipartimento della Protezione Civile
 
-Si spera che questi dati siano utili a coloro che producono visualizzazioni o analisi.
+Si spera che questi dati siano utili a coloro che producono visualizzazioni o analisi.   
 I dati possono essere esportati in 7 diversi formati 'json', 'xml', 'csv', 'txt', 'sql', 'excel', 'pdf'.
 
 ## Collaboratori
