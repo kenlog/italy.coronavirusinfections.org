@@ -43,12 +43,12 @@
 
     <meta property="og:title" content="Italy Coronavirus infections (COVID-19)">
     <meta property="og:description" content="Informazioni sanitarie sulle infezioni da coronavirus con statistiche dettagliate dall'Italia. I dati possono essere esportati in 7 diversi formati.">
-    <meta property="og:image" content="https://coronavirusinfections.org/public/img/coronavirusinfections.jpg">
-    <meta property="og:url" content="https://coronavirusinfections.org">
+    <meta property="og:image" content="https://italy.coronavirusinfections.org/public/img/coronavirusinfections.jpg">
+    <meta property="og:url" content="https://italy.coronavirusinfections.org">
 
     <meta property="twitter:title" content="Italy Coronavirus infections (COVID-19)">
     <meta property="twitter:description" content="Informazioni sanitarie sulle infezioni da coronavirus con statistiche dettagliate dall'Italia. I dati possono essere esportati in 7 diversi formati.">
-    <meta property="twitter:image" content="https://coronavirusinfections.org/public/img/coronavirusinfections.jpg">
-    <meta property="twitter:url" content="https://coronavirusinfections.org">
+    <meta property="twitter:image" content="https://italy.coronavirusinfections.org/public/img/coronavirusinfections.jpg">
+    <meta property="twitter:url" content="https://italy.coronavirusinfections.org">
 
 </head>
