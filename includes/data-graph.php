@@ -27,6 +27,8 @@
             <div class="card-body">
                 <h5 class="card-title font-weight-bold">Confermati</h5>
                 <p class="card-text"><?= $sumConfirmed; ?></p>
+                <h5 class="card-title font-weight-bold">Attualmente positivi</h5>
+                <p class="card-text"><?= $sumPositive; ?></p>
                 <h5 class="card-title font-weight-bold">Ricoverati</h5>
                 <p class="card-text"><?= $sumRecovered; ?></p>
                 <h5 class="card-title font-weight-bold">Guariti</h5>

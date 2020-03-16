@@ -71,6 +71,7 @@
           $sumDeaths = 0;
           $sumRecovered = 0;
           $sumHealed = 0;
+          $sumPositive = 0;
           foreach ($csvFile as $row) {
             echo '<tr>';
             echo '<th>'.$row[3].'</th>';
@@ -88,6 +89,9 @@
             echo '</tr>';
             if ($row[14] > 0) {
                 $sumConfirmed += $row[14];
+            }
+            if ($row[10] > 0) {
+                $sumPositive += $row[10];
             }
             if ($row[13] > 0) {
                 $sumDeaths += $row[13];
