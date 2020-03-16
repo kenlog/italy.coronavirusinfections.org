@@ -17,7 +17,9 @@
         <div class="card text-white bg-danger mb-5 mt-5 mx-auto" style="max-width: 100%;">
             <?php 
                 if (!empty($_POST['date'])) {
-                    echo '<div class="card-header font-weight-bold"><i class="fas fa-globe"></i> Complessivo <br><i class="fas fa-history"></i> '.$_POST['date'].' <br> </div>';
+                    $date = DateTime::createFromFormat('m-d-Y', $_POST['date']);
+                    $convertDate = $date->format('d-m-Y');
+                    echo '<div class="card-header font-weight-bold"><i class="fas fa-globe"></i> Complessivo <br><i class="fas fa-history"></i> '.$convertDate.' <br> </div>';
                 } else {
                     echo '<div class="card-header font-weight-bold"><i class="fas fa-globe"></i> Complessivo <br> Ultimo aggiornamento dati: <br> '.$updateDate.' <br> <i class="fas fa-history"></i> Totale casi</div>';
                 }

@@ -26,13 +26,15 @@
     <script src="public/js/locale/bootstrap-table-it-IT.min.js"></script>
     <?php
         if (!empty($_POST['date'])) {
-            $date = $_POST['date'];
+            $date = DateTime::createFromFormat('m-d-Y', $_POST['date']);
+            $convertDate = $date->format('d-m-Y');
         } else {
             $files = glob('data/csv/reports/*');
             $lastFile = end($files);
             $lastFile = str_replace('data/csv/reports/','',$lastFile);
             $lastFile = str_replace('.csv','',$lastFile);
-            $date = $lastFile;
+            $date = DateTime::createFromFormat('m-d-Y', $lastFile);
+            $convertDate = $date->format('d-m-Y');
         }
     ?>
     <script>
@@ -44,7 +46,7 @@
                     exportDataType: $(this).val(),
                     exportOptions: {
                         fileName: function () {
-                            return 'Rapporti sulla situazione (COVID-19) <?= $date; ?>'
+                            return 'Rapporti sulla situazione (COVID-19) <?= $convertDate; ?>'
                         },
                         preventInjection: false
                     },
@@ -60,7 +62,7 @@
             data: {
                 labels: ['Confermati', 'Ricoverati', 'Deceduti'],
                 datasets: [{
-                    label: 'Rapporti sulla situazione (COVID-19) <?= $date; ?>',
+                    label: 'Rapporti sulla situazione (COVID-19) <?= $convertDate; ?>',
                     data: [<?= $sumConfirmed; ?>, <?= $sumRecovered; ?>, <?= $sumDeaths; ?>],
                     backgroundColor: [
                         'rgba(54, 162, 235, 0.2)',
