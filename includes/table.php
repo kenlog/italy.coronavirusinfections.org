@@ -93,7 +93,7 @@
                 $sumDeaths += $row[13];
             }
             if ($row[12] > 0) {
-              $sumHealed += $row[12];
+                $sumHealed += $row[12];
             }
             if ($row[6] > 0) {
                 $sumRecovered += $row[6];
