@@ -43,13 +43,13 @@
             <th data-sortable="true">Ricoverati</th>
             <th data-sortable="true" data-visible="false">Terapia intensiva</th>
             <th data-sortable="true">Tot. ospedalizzati</th>
-            <th data-sortable="true" data-visible="false">Isolamento domiciliare</th>
-            <th data-sortable="true" data-visible="false">Tot. attualmente positivi</th>
-            <th data-sortable="true" data-visible="false">Nuovi attualmente positivi</th>
-            <th data-sortable="true">Dimessi guariti</th>
+            <th data-sortable="true" data-visible="false">Domiciliare</th>
+            <th data-sortable="true" data-visible="false">Tot. positivi</th>
+            <th data-sortable="true">Nuovi positivi</th>
+            <th data-sortable="true">Guariti</th>
             <th data-sortable="true">Deceduti</th>
             <th data-sortable="true" data-sort-order="desc">Tot. casi</th>
-            <th data-sortable="true">Tamponi</th>
+            <th data-sortable="true" data-visible="false">Tamponi</th>
           </tr>
         </thead>
         <tbody>
