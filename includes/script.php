@@ -60,19 +60,21 @@
         var globallyChart = new Chart(ctx, {
             type: 'bar',
             data: {
-                labels: ['Confermati', 'Ricoverati', 'Deceduti'],
+                labels: ['Confermati', 'Ricoverati', 'Guariti', 'Deceduti'],
                 datasets: [{
                     label: 'Rapporti sulla situazione (COVID-19) <?= $convertDate; ?>',
-                    data: [<?= $sumConfirmed; ?>, <?= $sumRecovered; ?>, <?= $sumDeaths; ?>],
+                    data: [<?= $sumConfirmed; ?>, <?= $sumRecovered; ?>, <?= $sumHealed; ?>, <?= $sumDeaths; ?>],
                     backgroundColor: [
                         'rgba(54, 162, 235, 0.2)',
                         'rgba(255, 206, 86, 0.2)',
-                        'rgba(213, 51, 66, 0.2)'
+                        'rgba(139, 195, 74, 0.2)',
+                        'rgba(158, 158, 158, 0.2)'
                     ],
                     borderColor: [
                         'rgba(54, 162, 235, 1)',
                         'rgba(255, 206, 86, 1)',
-                        'rgba(213, 51, 66, 1)'
+                        'rgba(139, 195, 74, 1)',
+                        'rgba(158, 158, 158, 1)'
                     ],
                     borderWidth: 1
                 }]
