@@ -19,13 +19,13 @@
                 if (!empty($_POST['date'])) {
                     $date = DateTime::createFromFormat('m-d-Y', $_POST['date']);
                     $convertDate = $date->format('d-m-Y');
-                    echo '<div class="card-header font-weight-bold"><i class="fas fa-globe"></i> Complessivo <br><i class="fas fa-history"></i> '.$convertDate.' <br> </div>';
+                    echo '<div class="card-header font-weight-bold"><i class="fas fa-procedures"></i> Covid-19 - Situazione in Italia <br><i class="fas fa-history"></i> <i class="fas fa-calendar-day"></i> '.$convertDate.' </div>';
                 } else {
-                    echo '<div class="card-header font-weight-bold"><i class="fas fa-globe"></i> Complessivo <br> Ultimo aggiornamento dati: <br> '.$updateDate.' <br> <i class="fas fa-history"></i> Totale casi</div>';
+                    echo '<div class="card-header font-weight-bold"><i class="fas fa-procedures"></i> Covid-19 - Situazione in Italia <br><i class="fas fa-history"></i> Ultimo aggiornamento dati: <br> <i class="fas fa-calendar-day"></i> '.$updateDate.' </div>';
                 }
             ?>
             <div class="card-body">
-                <h5 class="card-title font-weight-bold">Confermati</h5>
+                <h5 class="card-title font-weight-bold">Casi totali</h5>
                 <p class="card-text"><?= $sumConfirmed; ?></p>
                 <h5 class="card-title font-weight-bold">Attualmente positivi</h5>
                 <p class="card-text"><?= $sumPositive; ?></p>

@@ -60,7 +60,7 @@
         var globallyChart = new Chart(ctx, {
             type: 'bar',
             data: {
-                labels: ['Confermati', 'Attualmente positivi', 'Ricoverati', 'Guariti', 'Deceduti'],
+                labels: ['Casi totali', 'Attualmente positivi', 'Ricoverati', 'Guariti', 'Deceduti'],
                 datasets: [{
                     label: 'Rapporti sulla situazione (COVID-19) <?= $convertDate; ?>',
                     data: [<?= $sumConfirmed; ?>, <?= $sumPositive; ?>, <?= $sumRecovered; ?>, <?= $sumHealed; ?>, <?= $sumDeaths; ?>],
