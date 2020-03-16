@@ -44,8 +44,6 @@ include('includes/head.php');
         
             include('includes/protective-measures.php'); 
 
-            include('includes/blockquote-who.php');
-
             include('includes/who-to-contact.php');
         
         ?>   
