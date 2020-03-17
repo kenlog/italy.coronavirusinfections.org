@@ -38,9 +38,9 @@
                 <hr>
                 <h5 class="card-title font-weight-bold"><i class="fas fa-exclamation-triangle"></i> VALUTAZIONE DEL RISCHIO</h5>
                 <p class="card-text">
-                    Livello Nazionale Molto alto <br>
-                    Livello Regionale Molto alto <br>
-                    Livello Locale Molto alto
+                    Livello Nazionale Molto Alto <br>
+                    Livello Regionale Molto Alto <br>
+                    Livello Locale Molto Alto
                 </p>
             </div>
         </div>
