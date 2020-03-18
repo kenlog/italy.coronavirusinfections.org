@@ -31,7 +31,7 @@
         } else {
             $files = $reportFolder;
             $lastFile = end($files);
-            $lastFile = str_replace('data/csv/reports/','',$lastFile);
+            $lastFile = str_replace($pathReportFolder,'',$lastFile);
             $lastFile = str_replace('.csv','',$lastFile);
             $date = DateTime::createFromFormat('m-d-Y', $lastFile);
             $convertDate = $date->format('d-m-Y');
