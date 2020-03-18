@@ -38,6 +38,8 @@
         data-show-export="true">
         <thead class="thead-light">
           <tr>
+            <th data-visible="false">Lat.</th>
+            <th data-visible="false">Long.</th>
             <th data-field="region" data-filter-control="select">Regione</th>
             <th>Data</th>
             <th data-sortable="true">Ricoverati</th>
@@ -74,6 +76,16 @@
           $sumPositive = 0;
           foreach ($csvFile as $row) {
             echo '<tr>';
+            if (isset($row[4])) {
+              echo '<th>'.$row[4].'</th>';
+            } else {
+              echo '<th>00.0000</th>';
+            }
+            if (isset($row[5])) {
+              echo '<th>'.$row[5].'</th>';
+            } else {
+              echo '<th>00.0000</th>';
+            }
             echo '<th>'.$row[3].'</th>';
             echo '<th><small>'.date("d-m-Y H:i:s", strtotime($row[0])).'</small></th>';
             echo '<th>'.$row[6].'</th>';
