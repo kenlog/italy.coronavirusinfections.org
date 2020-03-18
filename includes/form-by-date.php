@@ -17,7 +17,7 @@
                 <select name="date" class="form-control" required>
                     <option value="" selected="selected">Seleziona per data</option>
                     <?php 
-                        foreach(glob('data/csv/reports/*') as $filename){
+                        foreach($reportFolder as $filename){
                             $filename = basename($filename);
                             $convertDate = str_replace('.csv','', $filename);
                             $date = DateTime::createFromFormat('m-d-Y', $convertDate);
