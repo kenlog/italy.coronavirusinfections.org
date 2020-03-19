@@ -14,7 +14,7 @@ $host = "https://italy.coronavirusinfections.org";
 
 $updateDate = '19 Marzo 2020';
 
-$nextUpdate = '7 PM CET 20 Marzo 2020'; 
+$nextUpdate = '6:30 PM CET 20 Marzo 2020'; 
 
 $pathReportFolder = 'data/csv/reports/';
 
