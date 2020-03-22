@@ -14,33 +14,87 @@
          
         <canvas id="globallyChart" width="100%"></canvas>
 
-        <div class="card text-white bg-danger mb-5 mt-5 mx-auto" style="max-width: 100%;">
-            <?php 
-                if (!empty($_POST['date'])) {
-                    $date = DateTime::createFromFormat('m-d-Y', $_POST['date']);
-                    $convertDate = $date->format('d-m-Y');
-                    echo '<div class="card-header font-weight-bold"><i class="fas fa-procedures"></i> Covid-19 - Situazione in Italia <br><i class="fas fa-history"></i> <i class="fas fa-calendar-day"></i> '.$convertDate.' </div>';
-                } else {
-                    echo '<div class="card-header font-weight-bold"><i class="fas fa-procedures"></i> Covid-19 - Situazione in Italia <br><i class="fas fa-history"></i> Ultimo aggiornamento dati: <br> <i class="fas fa-calendar-day"></i> '.$updateDate.' </div>';
-                }
-            ?>
-            <div class="card-body">
-                <h5 class="card-title font-weight-bold">Casi totali</h5>
-                <p class="card-text"><?= $sumConfirmed; ?></p>
-                <h5 class="card-title font-weight-bold">Attualmente positivi</h5>
-                <p class="card-text"><?= $sumPositive; ?></p>
-                <h5 class="card-title font-weight-bold">Ricoverati</h5>
-                <p class="card-text"><?= $sumRecovered; ?></p>
-                <h5 class="card-title font-weight-bold">Guariti</h5>
-                <p class="card-text"><?= $sumHealed; ?></p>
-                <h5 class="card-title font-weight-bold">Deceduti</h5>
-                <p class="card-text"><?= $sumDeaths; ?></p>
-                <hr>
-                <h5 class="card-title font-weight-bold"><i class="fas fa-exclamation-triangle"></i> VALUTAZIONE DEL RISCHIO</h5>
-                <p class="card-text">
-                    Livello Nazionale Molto Alto <br>
-                    Livello Regionale Molto Alto <br>
-                    Livello Locale Molto Alto
-                </p>
-            </div>
+        <div class="row">
+                <div class="col-sm-12 mb-3 mt-5 mx-auto">
+                        <div class="card text-white bg-danger">
+                        <div class="card-header">
+                            <h4 class="card-title font-weight-bold"><i class="fas fa-procedures"></i> Covid-19 Situazione in Italia</h4>
+                        </div>
+                        <div class="card-body">
+                        <?php 
+                            if (!empty($_POST['date'])) {
+                                $date = DateTime::createFromFormat('m-d-Y', $_POST['date']);
+                                $convertDate = $date->format('d-m-Y');
+                                echo '<h5 class="font-weight-bold"><i class="fas fa-calendar-day"></i> '.$convertDate.'</h5>';
+                            } else {
+                                echo '<h5 class="font-weight-bold"><i class="fas fa-calendar-day"></i> '.$updateDate.'</h5>';
+                            }
+                        ?>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 mb-3">
+                    <div class="card text-white bg-info">
+                        <div class="card-header">
+                            <h3 class="card-title font-weight-bold">ATTUALMENTE POSITIVI</h3>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title font-weight-bold"><?= number_format($sumPositive); ?></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 mb-3">
+                    <div class="card text-white bg-info">
+                        <div class="card-header">
+                            <h3 class="card-title font-weight-bold">CASI TOTALI</h3>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-text font-weight-bold"><?= number_format($sumConfirmed); ?></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 mb-3">
+                    <div class="card text-white bg-info">
+                        <div class="card-header">
+                            <h3 class="card-title font-weight-bold">RICOVERATI</h3>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-text font-weight-bold"><?= number_format($sumRecovered); ?></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 mb-3">
+                    <div class="card text-white bg-info">
+                        <div class="card-header">
+                            <h3 class="card-title font-weight-bold">GUARITI</h3>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-text font-weight-bold"><?= number_format($sumHealed); ?></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 mb-3">
+                    <div class="card text-white bg-info">
+                        <div class="card-header">
+                            <h3 class="card-title font-weight-bold">DECEDUTI</h3>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-text font-weight-bold"><?= number_format($sumDeaths); ?></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 mb-3">
+                    <div class="card text-white bg-danger">
+                        <div class="card-header">
+                            <h4 class="card-title font-weight-bold"><i class="fas fa-exclamation-triangle"></i> VALUTAZIONE DEL RISCHIO</h4>
+                        </div>
+                        <div class="card-body">
+                            <h5>
+                                Livello Nazionale Molto Alto <br>
+                                Livello Regionale Molto Alto <br>
+                                Livello Locale Molto Alto
+                            </h5>
+                        </div>
+                    </div>
+                </div>
         </div>

@@ -25,7 +25,15 @@ html {
 }
 
 .bg-success {
-    background-color: rgb(0, 74, 17)!important;
+    background-color: #273c2b!important;
+}
+
+.bg-warning {
+    background-color: #715b19!important;
+}
+
+.bg-secondary {
+    background-color: #383d42!important;
 }
 
 .text-warning {
