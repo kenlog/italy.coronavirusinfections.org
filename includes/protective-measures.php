@@ -18,7 +18,7 @@
         <div class="row text-center text-lg-left">
             
             <div class="col-lg-6 col-md-12 col-12 mb-4">
-                <img class="img-fluid img-thumbnail" src="public/img/flyers/iorestoacasa.jpg" alt="Lascia il virus fuori dalla porta">
+                <img class="img-fluid img-thumbnail" src="public/img/flyers/iorestoacasa.jpg?v=2" alt="Lascia il virus fuori dalla porta">
             </div>
             <div class="col-lg-6 col-md-12 col-12 mb-4">
                 <img class="img-fluid img-thumbnail" src="public/img/flyers/raccomandazioni-da-seguire.jpg" alt="Raccomandazioni da seguire">
