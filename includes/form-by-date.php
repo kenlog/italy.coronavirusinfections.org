@@ -26,7 +26,7 @@
                         }
                     ?>
                 </select> 
-                <a class="btn btn-secondary mt-2" href="<?= $host; ?>#table" role="button"><i class="far fa-calendar-check"></i> Ultimo aggiornamento dati <?= $updateDate; ?></a>
-                <button type="submit" class="btn btn-secondary mt-2"><i class="fas fa-calendar-day"></i> Mostra la data selezionata</button>
+                <a class="btn btn-secondary mt-2" href="<?= $host; ?>#table" role="button"><i class="far fa-calendar-check"></i> <?= $updateDate; ?></a>
+                <button type="submit" class="btn btn-secondary mt-2"><i class="fas fa-calendar-day"></i> Data selezionata</button>
             </form>
         </div>
