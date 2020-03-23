@@ -42,7 +42,7 @@
                             <h3 class="card-text font-weight-bold"><?= number_format($sumConfirmed); ?></h3>
                         </div>
                         <div class="card-footer text-muted">
-                            <h4 class="card-text"><?= percentage($sumConfirmed,60483973,3); ?> della popolazione</h4> 
+                            <h4 class="card-text"><?= percentage($sumConfirmed,60483973); ?> della popolazione</h4> 
                         </div>
                     </div>
                 </div>
