@@ -55,7 +55,7 @@
                             <h3 class="card-text font-weight-bold"><?= number_format($sumPositive); ?></h3>
                         </div>
                         <div class="card-footer text-muted">
-                            <h4 class="card-text"><?= percentage($sumPositive,$sumConfirmed); ?> dei casi totali</h4>
+                            <h4 class="card-text"><?= percentage($sumPositive,$sumConfirmed,1); ?> dei casi totali</h4>
                         </div>
                     </div>
                 </div>
@@ -68,7 +68,7 @@
                             <h3 class="card-text font-weight-bold"><?= number_format($sumNewPositive); ?></h3>
                         </div>
                         <div class="card-footer text-muted">
-                            <h4 class="card-text"><?= percentage($sumNewPositive,$sumPositive); ?></h4>
+                            <h4 class="card-text"><?= percentage($sumNewPositive,$sumPositive,1); ?></h4>
                         </div>
                     </div>
                 </div>
@@ -81,7 +81,7 @@
                             <h3 class="card-text font-weight-bold"><?= number_format($sumRecovered); ?></h3>
                         </div>
                         <div class="card-footer text-muted">
-                            <h4 class="card-text"><?= percentage($sumRecovered,$sumConfirmed); ?></h4> 
+                            <h4 class="card-text"><?= percentage($sumRecovered,$sumConfirmed,1); ?></h4> 
                         </div>
                     </div>
                 </div>
@@ -94,7 +94,7 @@
                             <h3 class="card-text font-weight-bold"><?= number_format($sumHealed); ?></h3>
                         </div>
                         <div class="card-footer text-muted">
-                            <h4 class="card-text"><?= percentage($sumHealed,$sumConfirmed); ?></h4> 
+                            <h4 class="card-text"><?= percentage($sumHealed,$sumConfirmed,1); ?></h4> 
                         </div>
                     </div>
                 </div>
@@ -107,7 +107,7 @@
                             <h3 class="card-text font-weight-bold"><?= number_format($sumDeaths); ?></h3>
                         </div>
                         <div class="card-footer text-muted">
-                            <h4 class="card-text"><?= percentage($sumDeaths,$sumConfirmed); ?></h4> 
+                            <h4 class="card-text"><?= percentage($sumDeaths,$sumConfirmed,1); ?></h4> 
                         </div>
                     </div>
                 </div>
