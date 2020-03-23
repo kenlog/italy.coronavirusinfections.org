@@ -33,7 +33,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 mb-3">
+                <div class="col-sm-6 mb-3">
                     <div class="card text-white bg-info">
                         <div class="card-header">
                             <h3 class="card-title font-weight-bold">CASI TOTALI</h3>
@@ -49,13 +49,26 @@
                 <div class="col-sm-6 mb-3">
                     <div class="card text-white bg-info">
                         <div class="card-header">
-                            <h3 class="card-title font-weight-bold">ATTUALMENTE POSITIVI</h3>
+                            <h3 class="card-title font-weight-bold">TOTALE POSITIVI</h3>
                         </div>
                         <div class="card-body">
                             <h3 class="card-text font-weight-bold"><?= number_format($sumPositive); ?></h3>
                         </div>
                         <div class="card-footer text-muted">
                             <h4 class="card-text"><?= percentage($sumPositive,$sumConfirmed); ?> dei casi totali</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 mb-3">
+                    <div class="card text-white bg-info">
+                        <div class="card-header">
+                            <h3 class="card-title font-weight-bold">NUOVI POSITIVI</h3>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-text font-weight-bold"><?= number_format($sumNewPositive); ?></h3>
+                        </div>
+                        <div class="card-footer text-muted">
+                            <h4 class="card-text"><?= percentage($sumNewPositive,$sumPositive); ?></h4>
                         </div>
                     </div>
                 </div>
