@@ -36,20 +36,26 @@
                 <div class="col-sm-12 mb-3">
                     <div class="card text-white bg-info">
                         <div class="card-header">
-                            <h3 class="card-title font-weight-bold">ATTUALMENTE POSITIVI</h3>
+                            <h3 class="card-title font-weight-bold">CASI TOTALI</h3>
                         </div>
                         <div class="card-body">
-                            <h3 class="card-title font-weight-bold"><?= number_format($sumPositive); ?></h3>
+                            <h3 class="card-text font-weight-bold"><?= number_format($sumConfirmed); ?></h3>
+                        </div>
+                        <div class="card-footer text-muted">
+                            <h4 class="card-text"><?= percentage($sumConfirmed,60483973,3); ?> della popolazione</h4> 
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6 mb-3">
                     <div class="card text-white bg-info">
                         <div class="card-header">
-                            <h3 class="card-title font-weight-bold">CASI TOTALI</h3>
+                            <h3 class="card-title font-weight-bold">ATTUALMENTE POSITIVI</h3>
                         </div>
                         <div class="card-body">
-                            <h3 class="card-text font-weight-bold"><?= number_format($sumConfirmed); ?></h3>
+                            <h3 class="card-text font-weight-bold"><?= number_format($sumPositive); ?></h3>
+                        </div>
+                        <div class="card-footer text-muted">
+                            <h4 class="card-text"><?= percentage($sumPositive,$sumConfirmed); ?> dei casi totali</h4>
                         </div>
                     </div>
                 </div>
@@ -61,6 +67,9 @@
                         <div class="card-body">
                             <h3 class="card-text font-weight-bold"><?= number_format($sumRecovered); ?></h3>
                         </div>
+                        <div class="card-footer text-muted">
+                            <h4 class="card-text"><?= percentage($sumRecovered,$sumConfirmed); ?></h4> 
+                        </div>
                     </div>
                 </div>
                 <div class="col-sm-6 mb-3">
@@ -71,6 +80,9 @@
                         <div class="card-body">
                             <h3 class="card-text font-weight-bold"><?= number_format($sumHealed); ?></h3>
                         </div>
+                        <div class="card-footer text-muted">
+                            <h4 class="card-text"><?= percentage($sumHealed,$sumConfirmed); ?></h4> 
+                        </div>
                     </div>
                 </div>
                 <div class="col-sm-6 mb-3">
@@ -80,6 +92,9 @@
                         </div>
                         <div class="card-body">
                             <h3 class="card-text font-weight-bold"><?= number_format($sumDeaths); ?></h3>
+                        </div>
+                        <div class="card-footer text-muted">
+                            <h4 class="card-text"><?= percentage($sumDeaths,$sumConfirmed); ?></h4> 
                         </div>
                     </div>
                 </div>
