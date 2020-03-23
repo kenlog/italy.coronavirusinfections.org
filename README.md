@@ -5,7 +5,7 @@
 # Coronavirus infections (COVID-19) Italy
 
 ## Fonte dei dati
-Editore/Autore del dataset: Dipartimento della Protezione Civile   
+Dataset: dati forniti dal Ministero della Salute  
 Elaborazione e gestione dati a cura del Dipartimento della Protezione Civile
 
 Si spera che questi dati siano utili a coloro che producono visualizzazioni o analisi.   
