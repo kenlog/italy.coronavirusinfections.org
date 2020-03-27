@@ -15,11 +15,12 @@
 <div class="jumbotron jumbotron-fluid mt-5 p-3 bg-info text-light">
     <div class="container">
         <h3 class="text-light font-weight-bold">Rapporti della situazione sulla malattia da coronavirus (COVID-19)</h3>
-        <p class="text-muted">- <i class="far fa-newspaper fa-lg"></i> Comunicati stampa dal sito Web dell'OMS -</p>
+        <p class="text-light">L'epidemia di COVID-19 del 2020 in Italia è iniziata il 30 gennaio, quando due turisti cinesi sono risultati positivi per il virus SARS-CoV-2 a Roma. Un focolaio di infezioni COVID-19 è stato successivamente rilevato a partire da 16 casi confermati in Lombardia il 21 febbraio, aumentati a 60 il giorno successivo con i primi decessi segnalati negli stessi giorni.</p>
     </div>
 </div>
 
 <div class="mb-5">
+    <p class="text-muted">- <i class="far fa-newspaper fa-lg"></i> Comunicati stampa dal sito Web dell'OMS -</p>
     <!-- timeline item 1 -->
     <div class="row no-gutters">
         <div class="col-sm"> <!--spacer--> </div>
