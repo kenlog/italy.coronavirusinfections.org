@@ -24,13 +24,16 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#measures">Misure di protezione di base</a>
+                    <a class="nav-link" href="#measures">Come prevenire</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#protection">Cosa posso fare per proteggermi</a>
+                    <a class="nav-link" href="#protection">Come proteggersi</a>
                 </li>
                 <li class="nav-item">    
                     <a class="nav-link" href="#contact">A chi rivolgersi</a>
+                </li>
+                <li class="nav-item">    
+                    <a class="nav-link donations" href="http://www.salute.gov.it/portale/nuovocoronavirus/dettaglioContenutiNuovoCoronavirus.jsp?lingua=italiano&id=5386&area=nuovoCoronavirus&menu=vuoto" target="_blank" rel="noreferrer">Dai il tuo contributo!</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="https://coronavirusinfections.org/">Infezione nel mondo</a>
