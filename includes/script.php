@@ -36,6 +36,13 @@
             $date = DateTime::createFromFormat('m-d-Y', $lastFile);
             $convertDate = $date->format('d-m-Y');
         }
+        $csvNationalTrend = new Keboola\Csv\CsvReader(
+            'data/csv/national-trend/andamento-nazionale.csv',
+            ',', // delimiter
+            '"', // enclosure
+            '', // escapedBy
+            1 // skipLines
+          );
     ?>
     <script>
         var $table = $('#table')
@@ -54,6 +61,141 @@
                 })
             }).trigger('change')
         })
+    </script>
+    <script>
+        var ctx = document.getElementById('trendNationalChart1').getContext('2d');
+        var trendNationalChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: [
+                    <?php 
+                        foreach ($csvNationalTrend as $row) {
+                            echo '"'.date("d-m-Y",strtotime(substr($row[0],0,10))).'",';
+                        }
+                    ?>
+                ],
+                datasets: [{
+                    label: ['Totale tamponi'],
+                    data: [
+                        <?php 
+                            foreach ($csvNationalTrend as $row) {
+                                echo ''.$row[12].',';
+                            }
+                        ?>
+                    ],
+                    pointRadius: 6,
+                    pointHoverRadius: 8,
+                    pointBackgroundColor: 'rgba(103, 58, 136, 0.5)',
+                    backgroundColor: [
+                        'rgba(103, 58, 136, 0.2)',
+                    ],
+                    borderColor: [
+                        'rgba(103, 58, 136, 1)',
+
+                    ],
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
+                }
+            }
+        });
+    </script>
+    <script>
+        var ctx = document.getElementById('trendNationalChart2').getContext('2d');
+        var trendNationalChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: [
+                    <?php 
+                        foreach ($csvNationalTrend as $row) {
+                            echo '"'.date("d-m-Y",strtotime(substr($row[0],0,10))).'",';
+                        }
+                    ?>
+                ],
+                datasets: [{
+                    label: ['Nuovi attualmente positivi'],
+                    data: [
+                        <?php 
+                            foreach ($csvNationalTrend as $row) {
+                                echo ''.$row[8].',';
+                            }
+                        ?>
+                    ],
+                    pointRadius: 6,
+                    pointHoverRadius: 8,
+                    pointBackgroundColor: 'rgba(255, 87, 34, 0.5)',
+                    backgroundColor: [
+                        'rgba(255, 87, 34, 0.2)',
+                    ],
+                    borderColor: [
+                        'rgba(255, 87, 34, 1)',
+
+                    ],
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
+                }
+            }
+        });
+    </script>
+    <script>
+        var ctx = document.getElementById('trendNationalChart3').getContext('2d');
+        var trendNationalChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: [
+                    <?php 
+                        foreach ($csvNationalTrend as $row) {
+                            echo '"'.date("d-m-Y",strtotime(substr($row[0],0,10))).'",';
+                        }
+                    ?>
+                ],
+                datasets: [{
+                    label: ['Ricoverati in terapia intensiva'],
+                    data: [
+                        <?php 
+                            foreach ($csvNationalTrend as $row) {
+                                echo ''.$row[3].',';
+                            }
+                        ?>
+                    ],
+                    pointRadius: 6,
+                    pointHoverRadius: 8,
+                    pointBackgroundColor: 'rgba(255, 20, 70, 0.5)',
+                    backgroundColor: [
+                        'rgba(255, 20, 70, 0.2)',
+                    ],
+                    borderColor: [
+                        'rgba(255, 20, 70, 1)',
+
+                    ],
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
+                }
+            }
+        });
     </script>
     <script>
         var ctx = document.getElementById('globallyChart').getContext('2d');
@@ -80,7 +222,7 @@
                         'rgba(139, 195, 74, 1)',
                         'rgba(158, 158, 158, 1)'
                     ],
-                    borderWidth: 1
+                    borderWidth: 2
                 }]
             },
             options: {

@@ -11,7 +11,6 @@
  */
 
  ?>
-         
         <canvas id="globallyChart" width="100%"></canvas>
 
         <div class="row">
@@ -126,3 +125,12 @@
                     </div>
                 </div>
         </div>
+
+        <p class="text-muted mt-4">Totale tamponi</p>
+        <canvas class="mb-4" id="trendNationalChart1" width="100%"></canvas>
+
+        <p class="text-muted mt-4">Nuovi attualmente positivi (totale casi giorno corrente - totale casi giorno precedente)</p>
+        <canvas class="mb-4" id="trendNationalChart2" width="100%"></canvas>
+        
+        <p class="text-muted mt-4">Ricoverati in terapia intensiva</p>
+        <canvas class="mb-4" id="trendNationalChart3" width="100%"></canvas>
