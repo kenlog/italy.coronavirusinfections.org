@@ -47,6 +47,7 @@
             <th data-sortable="true">Tot. ospedalizzati</th>
             <th data-sortable="true" data-visible="false">Domiciliare</th>
             <th data-sortable="true" data-visible="false">Tot. positivi</th>
+            <th data-sortable="true" data-visible="false">Variazione tot. positivi</th>
             <th data-sortable="true">Nuovi positivi</th>
             <th data-sortable="true">Guariti</th>
             <th data-sortable="true">Deceduti</th>
@@ -99,21 +100,22 @@
             echo '<th>'.$row[13].'</th>';
             echo '<th>'.$row[14].'</th>';
             echo '<th>'.$row[15].'</th>';
+            echo '<th>'.$row[16].'</th>';
             echo '</tr>';
-            if ($row[14] > 0) {
-                $sumConfirmed += $row[14];
+            if ($row[15] > 0) {
+                $sumConfirmed += $row[15];
             }
             if ($row[10] > 0) {
                 $sumPositive += $row[10];
             }
-            if ($row[11] > 0) {
-              $sumNewPositive += $row[11];
+            if ($row[12] > 0) {
+              $sumNewPositive += $row[12];
+            }
+            if ($row[14] > 0) {
+                $sumDeaths += $row[14];
             }
             if ($row[13] > 0) {
-                $sumDeaths += $row[13];
-            }
-            if ($row[12] > 0) {
-                $sumHealed += $row[12];
+                $sumHealed += $row[13];
             }
             if ($row[6] > 0) {
                 $sumRecovered += $row[6];
