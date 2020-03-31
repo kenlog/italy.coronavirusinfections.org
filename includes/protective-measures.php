@@ -12,8 +12,6 @@
 
  ?>
         
-        <p class="mb-3 text-light font-weight-bold">Tratto dal sito Web salute.gov.it per il pubblico</p>
-        
         <h2 class="text-warning mb-4" id="measures">Prevenzione e trattamento coronavirus</h2>
         <div class="row text-center text-lg-left">
             
@@ -41,8 +39,10 @@
             <div class="col-lg-6 col-md-12 col-12 mb-4">
                 <img class="img-fluid img-thumbnail" src="public/img/flyers/sintomi-coronavirus.jpg" alt="Quali sono i sintomi del nuovo coronavirus?">
             </div>
-
+            
         </div>
+
+        <p class="mb-3 text-light font-weight-bold">Infografiche - Ministero della Salute - www.salute.gov.it</p>
 
         <hr style="background:#343a40">
 
