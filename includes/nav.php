@@ -24,19 +24,19 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#measures">Come prevenire</a>
+                    <a class="nav-link font-weight-bold " href="#measures">Come prevenire</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#protection">Come proteggersi</a>
+                    <a class="nav-link font-weight-bold " href="#protection">Come proteggersi</a>
                 </li>
                 <li class="nav-item">    
-                    <a class="nav-link" href="#contact">A chi rivolgersi</a>
+                    <a class="nav-link font-weight-bold " href="#contact">A chi rivolgersi</a>
                 </li>
                 <li class="nav-item">    
-                    <a class="nav-link donations" href="http://www.salute.gov.it/portale/nuovocoronavirus/dettaglioContenutiNuovoCoronavirus.jsp?lingua=italiano&id=5386&area=nuovoCoronavirus&menu=vuoto" target="_blank" rel="noreferrer">Dai il tuo contributo!</a>
+                    <a class="nav-link font-weight-bold donations" href="http://www.salute.gov.it/portale/nuovocoronavirus/dettaglioContenutiNuovoCoronavirus.jsp?lingua=italiano&id=5386&area=nuovoCoronavirus&menu=vuoto" target="_blank" rel="noreferrer"><i class="fas fa-heartbeat"></i> Dai il tuo contributo!</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://coronavirusinfections.org/">Infezione nel mondo</a>
+                    <a class="nav-link font-weight-bold " href="https://coronavirusinfections.org/">Infezione nel mondo</a>
                 </li>
             </div>
             <ul class="share-buttons navbar-nav flex-row ml-md-auto d-md-flex">

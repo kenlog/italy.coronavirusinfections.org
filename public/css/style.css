@@ -207,26 +207,26 @@ select {
 
 @-webkit-keyframes color-change {
     0% { color: silver; }
-    50% { color: #f8bc5aa1; }
-    100% { color: #f8bc5a; }
+    50% { color: #c5035ed5; }
+    100% { color: #c5035c; }
 }
 @-moz-keyframes color-change {
     0% { color: silver; }
-    50% { color: #f8bc5aa1; }
-    100% { color: #f8bc5a; }
+    50% { color: #c5035ed5; }
+    100% { color: #c5035c; }
 }
 @-ms-keyframes color-change {
     0% { color: silver; }
-    50% { color: #f8bc5aa1; }
-    100% { color: #f8bc5a; }
+    50% { color: #c5035ed5; }
+    100% { color: #c5035c; }
 }
 @-o-keyframes color-change {
     0% { color: silver; }
-    50% { color: #f8bc5aa1; }
-    100% { color: #f8bc5a; }
+    50% { color: #c5035ed5; }
+    100% { color: #c5035c; }
 }
 @keyframes color-change {
     0% { color: silver; }
-    50% { color: #f8bc5aa1; }
-    100% { color: #f8bc5a; }
+    50% { color: #c5035ed5; }
+    100% { color: #c5035c; }
 }
