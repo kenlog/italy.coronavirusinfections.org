@@ -48,7 +48,7 @@
                 <div class="col-sm-6 mb-3">
                     <div class="card text-white bg-info">
                         <div class="card-header">
-                            <h3 class="card-title font-weight-bold">TOTALE POSITIVI</h3>
+                            <h3 class="card-title font-weight-bold">ATTUALMENTE POSITIVI</h3>
                         </div>
                         <div class="card-body">
                             <h3 class="card-text font-weight-bold"><?= number_format($sumPositive); ?></h3>
@@ -129,7 +129,7 @@
         <p class="text-muted mt-4">Totale tamponi</p>
         <canvas class="mb-4" id="trendNationalChart1" width="100%"></canvas>
 
-        <p class="text-muted mt-4">Nuovi attualmente positivi (totale casi giorno corrente - totale casi giorno precedente)</p>
+        <p class="text-muted mt-4">Attualmente positivi</p>
         <canvas class="mb-4" id="trendNationalChart2" width="100%"></canvas>
         
         <p class="text-muted mt-4">Ricoverati in terapia intensiva</p>
