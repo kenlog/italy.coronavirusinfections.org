@@ -120,7 +120,7 @@
                     ?>
                 ],
                 datasets: [{
-                    label: ['Nuovi attualmente positivi'],
+                    label: ['Attualmente positivi'],
                     data: [
                         <?php 
                             foreach ($csvNationalTrend as $row) {
@@ -202,7 +202,7 @@
         var globallyChart = new Chart(ctx, {
             type: 'bar',
             data: {
-                labels: ['Casi totali', 'Totale positivi', 'Nuovi positivi', 'Ricoverati', 'Guariti', 'Deceduti'],
+                labels: ['Casi totali', 'Attualmente positivi', 'Nuovi positivi', 'Ricoverati', 'Guariti', 'Deceduti'],
                 datasets: [{
                     label: 'Rapporti sulla situazione (COVID-19) <?= $convertDate; ?>',
                     data: [<?= $sumConfirmed; ?>, <?= $sumPositive; ?>, <?= $sumNewPositive ?>, <?= $sumRecovered; ?>, <?= $sumHealed; ?>, <?= $sumDeaths; ?>],
