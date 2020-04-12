@@ -22,6 +22,6 @@ class ContentController extends BaseController
 	public function __construct()
 	{
 		parent::__construct();
-        $this->modelHome = new Home();
+        	$this->modelHome = new Home();
 	}
 }
