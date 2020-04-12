@@ -21,4 +21,4 @@ Se ritieni di essere d'aiuto, non esitare a inviare richieste pull
 
 ## Licenza
 
-Copyright © 2020 - This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details 
+Copyright © 2020 - This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details   
