@@ -17,7 +17,7 @@
                 <select name="date" class="form-control" required>
                     <option value="" selected="selected">Seleziona per data</option>
                     <?php 
-                        foreach($reportFolder as $filename){
+                        foreach($data['reportFolder'] as $filename){
                             $filename = basename($filename);
                             $convertDate = str_replace('.csv','', $filename);
                             $date = DateTime::createFromFormat('m-d-Y', $convertDate);
@@ -26,7 +26,7 @@
                         }
                     ?>
                 </select> 
-                <a class="btn btn-secondary mt-2" href="<?= $host; ?>#table" role="button"><i class="far fa-calendar-check"></i> <?= $updateDate; ?></a>
+                <a class="btn btn-secondary mt-2" href="<?= $data['host']; ?>#table" role="button"><i class="far fa-calendar-check"></i> <?= $data['updateDate']; ?></a>
                 <button type="submit" class="btn btn-secondary mt-2"><i class="fas fa-calendar-day"></i> Data selezionata</button>
             </form>
         </div>

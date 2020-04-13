@@ -29,9 +29,9 @@
             $date = DateTime::createFromFormat('m-d-Y', $_POST['date']);
             $convertDate = $date->format('d-m-Y');
         } else {
-            $files = $reportFolder;
+            $files = $data['reportFolder'];
             $lastFile = end($files);
-            $lastFile = str_replace($pathReportFolder,'',$lastFile);
+            $lastFile = str_replace($data['pathReportFolder'],'',$lastFile);
             $lastFile = str_replace('.csv','',$lastFile);
             $date = DateTime::createFromFormat('m-d-Y', $lastFile);
             $convertDate = $date->format('d-m-Y');

@@ -26,7 +26,7 @@
                                 $convertDate = $date->format('d-m-Y');
                                 echo '<h5 class="font-weight-bold"><i class="fas fa-calendar-day"></i> '.$convertDate.'</h5>';
                             } else {
-                                echo '<h5 class="font-weight-bold"><i class="fas fa-calendar-day"></i> '.$updateDate.'</h5>';
+                                echo '<h5 class="font-weight-bold"><i class="fas fa-calendar-day"></i> '.$data['updateDate'].'</h5>';
                             }
                         ?>
                         </div>
@@ -41,7 +41,7 @@
                             <h3 class="card-text font-weight-bold"><?= number_format($sumConfirmed); ?></h3>
                         </div>
                         <div class="card-footer text-muted">
-                            <h4 class="card-text"><?= $this->percentage($sumConfirmed,60483973); ?> della popolazione</h4> 
+                            <h4 class="card-text"><?= $modelHome->percentage($sumConfirmed,60483973); ?> della popolazione</h4> 
                         </div>
                     </div>
                 </div>
@@ -54,7 +54,7 @@
                             <h3 class="card-text font-weight-bold"><?= number_format($sumPositive); ?></h3>
                         </div>
                         <div class="card-footer text-muted">
-                            <h4 class="card-text"><?= $this->percentage($sumPositive,$sumConfirmed,1); ?> dei casi totali</h4>
+                            <h4 class="card-text"><?= $modelHome->percentage($sumPositive,$sumConfirmed,1); ?> dei casi totali</h4>
                         </div>
                     </div>
                 </div>
@@ -67,7 +67,7 @@
                             <h3 class="card-text font-weight-bold"><?= number_format($sumNewPositive); ?></h3>
                         </div>
                         <div class="card-footer text-muted">
-                            <h4 class="card-text"><?= $this->percentage($sumNewPositive,$sumPositive,1); ?></h4>
+                            <h4 class="card-text"><?= $modelHome->percentage($sumNewPositive,$sumPositive,1); ?></h4>
                         </div>
                     </div>
                 </div>
@@ -80,7 +80,7 @@
                             <h3 class="card-text font-weight-bold"><?= number_format($sumRecovered); ?></h3>
                         </div>
                         <div class="card-footer text-muted">
-                            <h4 class="card-text"><?= $this->percentage($sumRecovered,$sumPositive,1); ?></h4> 
+                            <h4 class="card-text"><?= $modelHome->percentage($sumRecovered,$sumPositive,1); ?></h4> 
                         </div>
                     </div>
                 </div>
@@ -93,7 +93,7 @@
                             <h3 class="card-text font-weight-bold"><?= number_format($sumHealed); ?></h3>
                         </div>
                         <div class="card-footer text-muted">
-                            <h4 class="card-text"><?= $this->percentage($sumHealed,$sumConfirmed,1); ?></h4> 
+                            <h4 class="card-text"><?= $modelHome->percentage($sumHealed,$sumConfirmed,1); ?></h4> 
                         </div>
                     </div>
                 </div>
@@ -106,7 +106,7 @@
                             <h3 class="card-text font-weight-bold"><?= number_format($sumDeaths); ?></h3>
                         </div>
                         <div class="card-footer text-muted">
-                            <h4 class="card-text"><?= $this->percentage($sumDeaths,$sumConfirmed,1); ?></h4> 
+                            <h4 class="card-text"><?= $modelHome->percentage($sumDeaths,$sumConfirmed,1); ?></h4> 
                         </div>
                     </div>
                 </div>
