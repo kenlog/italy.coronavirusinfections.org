@@ -14,7 +14,6 @@ namespace Coronavirusinfections\Model;
 
 class Home
 {
-	private $host = 'https://italy.coronavirusinfections.org';
 	private $updateDate = '13 Aprile 2020';
 	private $nextUpdate = '6:30 PM CET 14 Aprile 2020';
 	private $pathReportFolder;
@@ -28,7 +27,6 @@ class Home
 		$this->contagionDays = count($this->reportFolder);
 
 		return [
-			'host' => $this->host,
 			'updateDate' => $this->updateDate,
 			'nextUpdate' => $this->nextUpdate,
 			'pathReportFolder' => $this->pathReportFolder,
