@@ -1,5 +1,4 @@
 ![GitHub](https://img.shields.io/github/license/kenlog/italy.coronavirusinfections.org)
-![Website](https://img.shields.io/website?down_message=offline&up_message=online&url=https%3A%2F%2Fitaly.coronavirusinfections.org)
 ![Deploy 🚀](https://github.com/kenlog/italy.coronavirusinfections.org/workflows/Deploy%20%F0%9F%9A%80/badge.svg)
 
 [italy.coronavirusinfections.org](https://italy.coronavirusinfections.org/)
