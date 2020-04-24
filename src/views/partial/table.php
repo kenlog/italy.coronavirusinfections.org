@@ -121,6 +121,58 @@
                 $sumRecovered += $row[6];
             }
           }
+
+          if (!empty($_POST['date']) && file_exists($data['pathReportFolder'].$_POST['date'].'.csv')) {
+            $date = $_POST['date'];
+            $dateReplace = str_replace('-', '/', $date);
+            $yesterday = date('m-d-Y',strtotime($dateReplace . "-1 days"));
+            $fileExists = $data['pathReportFolder'].$yesterday.'.csv';
+            if (file_exists($fileExists)) {
+              $file = $fileExists;
+            } else {
+              $file = $data['pathReportFolder'].$_POST['date'].'.csv';
+            }
+          } else {
+            $files = $data['reportFolder'];
+            $end = end($files);
+            $file = prev($files);
+          }
+
+          $csvFile = new Keboola\Csv\CsvReader(
+            $file,
+            ',', // delimiter
+            '"', // enclosure
+            '', // escapedBy
+            1 // skipLines
+          );
+
+          $prevSumConfirmed = 0;
+          $prevSumDeaths = 0;
+          $prevSumRecovered = 0;
+          $prevSumHealed = 0;
+          $prevSumPositive = 0;
+          $prevSumNewPositive = 0;
+          foreach ($csvFile as $row) {
+            if ($row[15] > 0) {
+              $prevSumConfirmed += $row[15];
+            }
+            if ($row[10] > 0) {
+                $prevSumPositive += $row[10];
+            }
+            if ($row[12] > 0) {
+              $prevSumNewPositive += $row[12];
+            }
+            if ($row[14] > 0) {
+                $prevSumDeaths += $row[14];
+            }
+            if ($row[13] > 0) {
+                $prevSumHealed += $row[13];
+            }
+            if ($row[6] > 0) {
+                $prevSumRecovered += $row[6];
+            }
+          }
+
         ?>
         </tbody>
       </table>

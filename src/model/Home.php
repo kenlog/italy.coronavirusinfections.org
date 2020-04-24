@@ -43,4 +43,20 @@ class Home
 			return '0.00%';
 		}
 	}
+
+	public function percentagePreviousDay(int $a, int $b, int $c, int $d, $decimals = 2)
+	{
+		if (isset($a,$b,$c,$d)) {
+			$percentageCurrent = $this->percentage($a,$b,$decimals);
+			$percentagePrev = $this->percentage($c,$d,$decimals);
+			$percentagePreviousDay = number_format((float)$percentageCurrent - (float)$percentagePrev,2).'%';
+			if ($percentagePreviousDay < 0) {
+				return $percentagePreviousDay;
+			} else {
+				return '+'.$percentagePreviousDay;
+			}
+		} else {
+			return '0.00%';
+		}
+	}
 }

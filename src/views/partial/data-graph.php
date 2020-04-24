@@ -41,7 +41,8 @@
                             <h3 class="card-text font-weight-bold"><?= number_format($sumConfirmed); ?></h3>
                         </div>
                         <div class="card-footer text-muted">
-                            <h4 class="card-text"><?= $modelHome->percentage($sumConfirmed,60483973); ?> della popolazione</h4> 
+                            <h4 class="card-text"> <i class="fas fa-sort-numeric-up"></i> </h4> 
+                            <h4 class="card-text"> <i class="fas fa-procedures"></i> </h4>
                         </div>
                     </div>
                 </div>
@@ -55,6 +56,7 @@
                         </div>
                         <div class="card-footer text-muted">
                             <h4 class="card-text"><?= $modelHome->percentage($sumPositive,$sumConfirmed,1); ?> dei casi totali</h4>
+                            <h4 class="card-text"><small>24 ore <i class="fas fa-history"></i> <?= $modelHome->percentagePreviousDay($sumPositive,$sumConfirmed,$prevSumPositive,$prevSumConfirmed); ?> </small></h4>
                         </div>
                     </div>
                 </div>
@@ -68,6 +70,7 @@
                         </div>
                         <div class="card-footer text-muted">
                             <h4 class="card-text"><?= $modelHome->percentage($sumNewPositive,$sumPositive,1); ?></h4>
+                            <h4 class="card-text"><small>24 ore <i class="fas fa-history"></i> <?= $modelHome->percentagePreviousDay($sumNewPositive,$sumPositive,$prevSumNewPositive,$prevSumPositive); ?> </small></h4>
                         </div>
                     </div>
                 </div>
@@ -81,6 +84,7 @@
                         </div>
                         <div class="card-footer text-muted">
                             <h4 class="card-text"><?= $modelHome->percentage($sumRecovered,$sumPositive,1); ?></h4> 
+                            <h4 class="card-text"><small>24 ore <i class="fas fa-history"></i> <?= $modelHome->percentagePreviousDay($sumRecovered,$sumPositive,$prevSumRecovered,$prevSumPositive); ?> </small></h4>
                         </div>
                     </div>
                 </div>
@@ -94,6 +98,7 @@
                         </div>
                         <div class="card-footer text-muted">
                             <h4 class="card-text"><?= $modelHome->percentage($sumHealed,$sumConfirmed,1); ?></h4> 
+                            <h4 class="card-text"><small>24 ore <i class="fas fa-history"></i> <?= $modelHome->percentagePreviousDay($sumHealed,$sumConfirmed,$prevSumHealed,$prevSumConfirmed); ?> </small></h4>
                         </div>
                     </div>
                 </div>
@@ -107,6 +112,7 @@
                         </div>
                         <div class="card-footer text-muted">
                             <h4 class="card-text"><?= $modelHome->percentage($sumDeaths,$sumConfirmed,1); ?></h4> 
+                            <h4 class="card-text"><small>24 ore <i class="fas fa-history"></i> <?= $modelHome->percentagePreviousDay($sumDeaths,$sumConfirmed,$prevSumDeaths,$prevSumConfirmed); ?> </small></h4>
                         </div>
                     </div>
                 </div>
