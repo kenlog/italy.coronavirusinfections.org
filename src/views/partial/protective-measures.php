@@ -86,7 +86,7 @@
                 pulire le superfici con disinfettanti a base di cloro o alcol;
             </li>
             <li>
-                usare la mascherina solo se si sospetta di essere malati o se si presta assistenza a persone malate.&nbsp;
+                l'uso della mascherina aiuta a limitare la diffusione del virus, ma deve essere adottata in aggiunta ad altre misure di igiene quali il lavaggio accurato delle mani per almeno 20 secondi. Non è utile indossare più mascherine sovrapposte.
             </li>
         </ul>
 
