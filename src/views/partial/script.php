@@ -83,8 +83,8 @@
                             }
                         ?>
                     ],
-                    pointRadius: 6,
-                    pointHoverRadius: 8,
+                    pointRadius: 4,
+                    pointHoverRadius: 5,
                     pointBackgroundColor: 'rgba(103, 58, 136, 0.5)',
                     backgroundColor: [
                         'rgba(103, 58, 136, 0.2)',
@@ -128,8 +128,8 @@
                             }
                         ?>
                     ],
-                    pointRadius: 6,
-                    pointHoverRadius: 8,
+                    pointRadius: 4,
+                    pointHoverRadius: 5,
                     pointBackgroundColor: 'rgba(255, 87, 34, 0.5)',
                     backgroundColor: [
                         'rgba(255, 87, 34, 0.2)',
@@ -173,8 +173,8 @@
                             }
                         ?>
                     ],
-                    pointRadius: 6,
-                    pointHoverRadius: 8,
+                    pointRadius: 4,
+                    pointHoverRadius: 5,
                     pointBackgroundColor: 'rgba(255, 20, 70, 0.5)',
                     backgroundColor: [
                         'rgba(255, 20, 70, 0.2)',
