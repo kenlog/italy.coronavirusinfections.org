@@ -14,8 +14,8 @@ namespace Coronavirusinfections\Model;
 
 class Home
 {
-	private $updateDate = '20 Luglio 2020';
-	private $nextUpdate = '21 Luglio 2020';
+	private $updateDate = '21 Luglio 2020';
+	private $nextUpdate = '22 Luglio 2020';
 	private $pathReportFolder;
 	private $reportFolder;
 	private $contagionDays;
