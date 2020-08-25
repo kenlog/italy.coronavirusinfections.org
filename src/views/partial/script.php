@@ -79,7 +79,7 @@
                     data: [
                         <?php 
                             foreach ($csvNationalTrend as $row) {
-                                echo ''.$row[12].',';
+                                echo ''.$row[14].',';
                             }
                         ?>
                     ],
