@@ -99,11 +99,11 @@
             echo '<th>'.$row[12].'</th>';
             echo '<th>'.$row[13].'</th>';
             echo '<th>'.$row[14].'</th>';
-            echo '<th>'.$row[15].'</th>';
-            echo '<th>'.$row[16].'</th>';
+            echo '<th>'.$row[17].'</th>';
+            echo '<th>'.$row[18].'</th>';
             echo '</tr>';
-            if ($row[15] > 0) {
-                $sumConfirmed += $row[15];
+            if ($row[17] > 0) {
+                $sumConfirmed += $row[17];
             }
             if ($row[10] > 0) {
                 $sumPositive += $row[10];
@@ -153,8 +153,8 @@
           $prevSumPositive = 0;
           $prevSumNewPositive = 0;
           foreach ($csvFile as $row) {
-            if ($row[15] > 0) {
-              $prevSumConfirmed += $row[15];
+            if ($row[17] > 0) {
+              $prevSumConfirmed += $row[17];
             }
             if ($row[10] > 0) {
                 $prevSumPositive += $row[10];
