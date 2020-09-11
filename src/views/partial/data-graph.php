@@ -132,7 +132,7 @@
                 </div>
         </div>
 
-        <p class="text-muted mt-4">Totale tamponi</p>
+        <p class="text-muted mt-4">Totale dei soggetti sottoposti al test</p>
         <canvas class="mb-4" id="trendNationalChart1" width="100%"></canvas>
 
         <p class="text-muted mt-4">Attualmente positivi</p>

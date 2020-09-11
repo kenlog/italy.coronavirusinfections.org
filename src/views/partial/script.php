@@ -75,11 +75,11 @@
                     ?>
                 ],
                 datasets: [{
-                    label: ['Totale tamponi'],
+                    label: ['Totale dei soggetti sottoposti al test'],
                     data: [
                         <?php 
                             foreach ($csvNationalTrend as $row) {
-                                echo ''.$row[14].',';
+                                echo ''.$row[15].',';
                             }
                         ?>
                     ],
