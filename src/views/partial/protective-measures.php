@@ -48,12 +48,12 @@
 
         <div class="mt-5 mb-4 text-left ml-4" id="protection">
             <h3 class="text-warning mb-4">Cosa posso fare per proteggermi?</h3>
-            <p class="text-light"><b>Mantieniti informato sulla diffusione della pandemia, disponibile sul <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/" title="collegamento a sito Oms">sito dell'OMS</a> e sul <a href="http://www.salute.gov.it/nuovocoronavirus" title="apre sito nuovocoronavirus">sito del ministero</a>&nbsp;e adotta le seguenti misure di protezione personale:</b></p>
+            <p class="text-light"><b>Mantieniti informato sulla diffusione della pandemia, disponibile sul <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/" title="collegamento a sito Oms" rel="noopener noreferrer">sito dell'OMS</a> e sul <a href="http://www.salute.gov.it/nuovocoronavirus" title="apre sito nuovocoronavirus" rel="noopener noreferrer">sito del ministero</a>&nbsp;e adotta le seguenti misure di protezione personale:</b></p>
         </div>
 
         <ul class="text-left text-light">
             <li>
-                restare a casa,&nbsp;uscire di casa solo per esigenze lavorative, motivi di salute e necessità (vedi&nbsp;<a href="http://www.salute.gov.it/portale/nuovocoronavirus/dettaglioFaqNuovoCoronavirus.jsp?lingua=italiano&amp;id=228#11">misure di contenimento</a>)
+                restare a casa,&nbsp;uscire di casa solo per esigenze lavorative, motivi di salute e necessità (vedi&nbsp;<a href="http://www.salute.gov.it/portale/nuovocoronavirus/dettaglioFaqNuovoCoronavirus.jsp?lingua=italiano&amp;id=228#11" rel="noopener noreferrer">misure di contenimento</a>)
             </li>
             <li>
                 lavarsi spesso le mani;
@@ -96,6 +96,6 @@
 
         <ul class="text-left text-light">
             <li>
-                rimani in casa, non recarti al pronto soccorso o presso gli studi medici ma chiama al telefono il tuo medico di famiglia, il tuo pediatra o la guardia medica. Oppure chiama il&nbsp;<a href="http://www.salute.gov.it/portale/nuovocoronavirus/dettaglioContenutiNuovoCoronavirus.jsp?lingua=italiano&amp;id=5364&amp;area=nuovoCoronavirus&amp;menu=vuoto">numero verde</a>&nbsp;regionale. Utilizza i numeri di emergenza 112/118 soltanto se strettamente necessario.
+                rimani in casa, non recarti al pronto soccorso o presso gli studi medici ma chiama al telefono il tuo medico di famiglia, il tuo pediatra o la guardia medica. Oppure chiama il&nbsp;<a href="http://www.salute.gov.it/portale/nuovocoronavirus/dettaglioContenutiNuovoCoronavirus.jsp?lingua=italiano&amp;id=5364&amp;area=nuovoCoronavirus&amp;menu=vuoto" rel="noopener noreferrer">numero verde</a>&nbsp;regionale. Utilizza i numeri di emergenza 112/118 soltanto se strettamente necessario.
             </li>
         </ul>

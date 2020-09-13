@@ -33,7 +33,7 @@
                     <a class="nav-link font-weight-bold " href="#contact">A chi rivolgersi</a>
                 </li>
                 <li class="nav-item">    
-                    <a class="nav-link font-weight-bold donations" href="http://www.salute.gov.it/portale/nuovocoronavirus/dettaglioContenutiNuovoCoronavirus.jsp?lingua=italiano&id=5386&area=nuovoCoronavirus&menu=vuoto" target="_blank" rel="noreferrer"><i class="fas fa-heartbeat"></i> Dai il tuo contributo!</a>
+                    <a class="nav-link font-weight-bold donations" href="http://www.salute.gov.it/portale/nuovocoronavirus/dettaglioContenutiNuovoCoronavirus.jsp?lingua=italiano&id=5386&area=nuovoCoronavirus&menu=vuoto" target="_blank" rel="noopener noreferrer"><i class="fas fa-heartbeat"></i> Dai il tuo contributo!</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link font-weight-bold " href="https://coronavirusinfections.org/">Infezione nel mondo</a>

@@ -20,5 +20,5 @@
             <li style="display: inline;margin: 3px;"><a href="https://t.me/share/url?url=https://italy.coronavirusinfections.org/&amp;text=Coronavirusinfections.org" target="_blank" title="Condividi su Telegram"><img src="public/icons/telegram.png"></a></li>
             <li style="display: inline;margin: 3px;"><a href="whatsapp://send?text=https://italy.coronavirusinfections.org/" target="_blank" title="Condividi su Whatsapp"><img src="public/icons/whatsapp.png"></a></li>
         </ul>
-        <a href="https://secure.avaaz.org/campaign/it/covid19_global_response_loc/?copy" target="_blank">"Unisciti all'impegno di aiutare a rallentare il coronavirus - avaaz.org"</a>
+        <a href="https://secure.avaaz.org/campaign/it/covid19_global_response_loc/?copy" target="_blank" rel="noopener noreferrer">"Unisciti all'impegno di aiutare a rallentare il coronavirus - avaaz.org"</a>
     </div>
