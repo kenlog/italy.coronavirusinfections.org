@@ -96,6 +96,6 @@
 
         <ul class="text-left text-light">
             <li>
-                rimani in casa, non recarti al pronto soccorso o presso gli studi medici ma chiama al telefono il tuo medico di famiglia, il tuo pediatra o la guardia medica. Oppure chiama il&nbsp;<a href="http://www.salute.gov.it/portale/nuovocoronavirus/dettaglioContenutiNuovoCoronavirus.jsp?lingua=italiano&amp;id=5364&amp;area=nuovoCoronavirus&amp;menu=vuoto" rel="noopener noreferrer">numero verde</a>&nbsp;regionale. Utilizza i numeri di emergenza 112/118 soltanto se strettamente necessario.
+                rimani in casa, non recarti al pronto soccorso o presso gli studi medici ma chiama al telefono il tuo medico di famiglia, il tuo pediatra o la guardia medica. Oppure chiama il&nbsp;<a href="http://www.salute.gov.it/portale/nuovocoronavirus/dettaglioContenutiNuovoCoronavirus.jsp?lingua=italiano&amp;id=5364&amp;area=nuovoCoronavirus&amp;menu=vuoto" rel="noopener noreferrer" class="text-success">numero verde</a>&nbsp;regionale. Utilizza i numeri di emergenza 112/118 soltanto se strettamente necessario.
             </li>
         </ul>
