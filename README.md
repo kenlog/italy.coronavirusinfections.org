@@ -18,6 +18,6 @@ Se ritieni di essere d'aiuto, non esitare a inviare richieste pull
 
 * **Valentino Pesce** - [Kenlog](https://github.com/kenlog)
 
-## Licenza
+## Licenza 
 
 Copyright © 2020 - This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details   
