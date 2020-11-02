@@ -5,11 +5,11 @@ jobs:
     name: Deploy
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
     - name: git-ftp push
-      uses: sebastianpopp/git-ftp-action@releases/v3
+      uses: ilTuoBrand/deploy@releases/v1
       with:
         url: ${{ secrets.FTP_SERVER }}
         user: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        options: --insecure
+        options: --auto-init
