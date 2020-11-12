@@ -75,11 +75,11 @@
                     ?>
                 ],
                 datasets: [{
-                    label: ['Totale dei soggetti sottoposti al test'],
+                    label: ['Deceduti'],
                     data: [
                         <?php 
                             foreach ($csvNationalTrend as $row) {
-                                echo ''.$row[15].',';
+                                echo ''.$row[10].',';
                             }
                         ?>
                     ],
