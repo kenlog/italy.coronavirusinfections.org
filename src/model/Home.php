@@ -14,7 +14,7 @@ namespace Coronavirusinfections\Model;
 
 class Home
 {
-	private $updateDate = '14 Novembre 2020';
+	private $updateDate = '15 Novembre 2020';
 	private $nextUpdate = '16 Novembre 2020';
 	private $pathReportFolder;
 	private $reportFolder;
